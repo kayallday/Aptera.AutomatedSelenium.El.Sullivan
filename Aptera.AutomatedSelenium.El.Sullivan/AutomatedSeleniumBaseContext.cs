@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace Way2AutomateTests
+namespace AutomatedSeleniumBase
 {
     [TestFixture]
     public class AutomatedSeleniumBaseContext
