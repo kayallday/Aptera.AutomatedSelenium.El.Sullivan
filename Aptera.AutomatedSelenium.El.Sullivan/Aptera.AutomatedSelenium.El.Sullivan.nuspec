@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package >
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Aptera.AutomatedSelenium.El.Sullivan</id>
     <version>1.1.1</version>
@@ -62,11 +62,11 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="README.md" target="" />
-    <file src="Features\**" target="" />
-    <file src="PageObjects\**" target="" />
-    <file src="StepDefinitions\**" target="" />
-    <file src="AutomatedSeleniumBase.runsettings" target="" />
-    <file src="AutomatedSeleniumBaseContext.cs" target="" />
+    <file src="README.md" target="content" />
+    <file src="Features\**" target="content" />
+    <file src="PageObjects\**" target="content" />
+    <file src="StepDefinitions\**" target="content" />
+    <file src="AutomatedSeleniumBase.runsettings" target="content" />
+    <file src="AutomatedSeleniumBaseContext.cs" target="content" />
   </files>
 </package>
